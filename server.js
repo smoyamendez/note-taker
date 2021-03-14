@@ -1,6 +1,5 @@
 //  DEPENDENCIES
 const express = require('express');
-const path = require('path');
 
 // EXPRESS CONFIG: tells node we are creating an express server
 const app = express();
