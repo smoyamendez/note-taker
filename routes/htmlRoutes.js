@@ -5,8 +5,6 @@ const path = require('path');
 // ROUTING
 module.exports = (app) => {
 
-    app.use(express.static('public'));
-
     // HTML GET REQUESTS
     app.get('/notes', (req, res) => {
         res.sendFile(path.join(__dirname, '../public/notes.html'))
